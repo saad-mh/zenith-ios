@@ -16,6 +16,21 @@
 			path = Zenith;
 			sourceTree = "<group>";
 		};
+		CBA549EC2DAABEF400D9EB98 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CBA549EE2DAABF0100D9EB98 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBA549FD2DAAC74D00D9EB98 /* Extentions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +49,9 @@
 			children = (
 				CB9BC2512DA935360088412F /* Zenith */,
 				CB9BC2502DA935360088412F /* Products */,
+				CBA549EC2DAABEF400D9EB98 /* ViewModels */,
+				CBA549EE2DAABF0100D9EB98 /* Views */,
+				CBA549FD2DAAC74D00D9EB98 /* Extentions */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +80,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CB9BC2512DA935360088412F /* Zenith */,
+				CBA549EC2DAABEF400D9EB98 /* ViewModels */,
+				CBA549EE2DAABF0100D9EB98 /* Views */,
+				CBA549FD2DAAC74D00D9EB98 /* Extentions */,
 			);
 			name = Zenith;
 			packageProductDependencies = (
@@ -255,11 +276,14 @@
 				DEVELOPMENT_TEAM = 6RN3RU2YSJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zenith;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +308,14 @@
 				DEVELOPMENT_TEAM = 6RN3RU2YSJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zenith;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

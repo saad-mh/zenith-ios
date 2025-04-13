@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct ZenithApp: App {
+    init() {
+        TransactionCategory.initializeDefaultCategories()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
+				.modelContainer(for: [Transaction.self])
+                .environmentObject(OverviewViewModel())
         }
     }
 }
