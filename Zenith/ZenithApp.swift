@@ -14,10 +14,10 @@ struct ZenithApp: App {
         TransactionCategory.initializeDefaultCategories()
     }
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+		WindowGroup {
+			ContentView()
 				.modelContainer(for: [Transaction.self])
-                .environmentObject(OverviewViewModel())
-        }
+				.environmentObject(OverviewViewModel())
+		}
     }
 }
